@@ -1,0 +1,26 @@
+header.header
+  section.header-menu
+    .header-menu__logo
+      h1.header-menu__title Felicita
+    .header-menu__menu
+      ul.header-menu__list
+        each value, key in header_menu
+          li.header-menu__item
+            if(value[2] === "")
+              a(href="#{value[0]}").header-menu__link= key
+            else
+              a(href="#{value[0]}" class="header-menu__link--#{value[2]}").header-menu__link= key
+  section.header-slider
+    .header-slider__description.feature
+      each value, key in feature
+        h2.feature__title= key
+        .feature__description= value
+        a(href="#{value[1]}") Learn more
+    .header-slider__switch.feature-switch
+      ul.feature-switch__list
+        each value, key in feature_image
+          li.feature-switch__item
+            if(value[1] === "")
+              a(href="#{value[0]}").feature-switch__link= key
+            else
+              a(href="#{value[0]}" class="feature-switch__link--#{value[1]}").feature-switch__link= key

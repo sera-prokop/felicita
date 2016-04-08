@@ -1,0 +1,17 @@
+main.main
+  section.main-description
+    each value, key in main_description_block
+      .main-description__block(class="#{key}")
+        a(href="#{value[1]}" class="#{key}__img-item")
+          img(src="#{value[2]}", alt="#{value[0]}" class="#{key}__img")
+        h3(class="#{key}__title")= value[0]
+        p(class="#{key}__description")= value[3]
+        a(href="#{value[1]}" class="#{key}__item") Read more
+  section.main-advertising
+    .main-advertising__img-block
+      img(src="#", alt="Robert Craig").main-advertising__img
+    .main-advertising__ad.adt
+      h3.adt__title FRiDAY 15 TH DECEMBER
+      p.adt__description Holiday Winemaker Dinner with Robert Craig
+        span.adt__span Space is limited, please call Alison to reserve your seat at the table: 415.345.3900x13
+  section.popular-menu

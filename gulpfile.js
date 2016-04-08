@@ -16,6 +16,7 @@ var gulp = require('gulp'),
     spritesmith = require('gulp.spritesmith'),
     notify = require('gulp-notify'),
     jade = require('gulp-jade'),
+    fs = require('fs'),
     svgSprite = require('gulp-svg-sprite'),
     reload = browserSync.reload;;
 
@@ -95,7 +96,7 @@ gulp.task('html:build', function () {
 });
 
 gulp.task('html_test:build', function () {
-    var YOUR_LOCALS = {};
+    var YOUR_LOCALS = './src/jade/template/content.json';
     gulp.src(path.src.jade)
     .pipe(plumber({
         errorHandler: notify.onError(err => ({
@@ -104,7 +105,7 @@ gulp.task('html_test:build', function () {
         }))
       }))
     .pipe(jade({
-      locals: YOUR_LOCALS,
+      locals: JSON.parse(fs.readFileSync(YOUR_LOCALS, 'utf8')),
       pretty: true
     }))
     .pipe(gulp.dest(path.test.html))

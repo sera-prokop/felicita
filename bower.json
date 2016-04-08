@@ -6,7 +6,7 @@
     "Sergey <sera.prokop@gmail.com>"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/sera-prokop/First-project",
+  "homepage": "https://github.com/sera-prokop/felicita.git",
   "moduleType": [],
   "ignore": [
     "**/.*",
@@ -17,7 +17,6 @@
   ],
   "dependencies": {
     "jquery": "*",
-    "normalize.css": "*",
-    // "modernizr": "2.8.*"
+    "normalize.css": "*"
   }
 }

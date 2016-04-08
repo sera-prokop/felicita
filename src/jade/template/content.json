@@ -1,0 +1,33 @@
+{
+  "header_menu" : {
+    "Home" : ["#", "home", "active"],
+    "About us" : ["#", "about", ""],
+    "Our menu" : ["#", "our_menu", ""],
+    "Gallery" : ["#", "gallery", ""],
+    "Blog" : ["#", "blog", ""],
+    "Features" : ["#", "features", ""],
+    "Contact us" : ["#", "contact", ""]
+  },
+  "feature" : {
+    "Fresh grinded coffee & hot drinks" : ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quia maiores sint, ab quisquam veritatis obcaecati dicta itaque aperiam!", "#"],
+    "Fresh grinded coffee & hot drinks1" : ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quia maiores sint, ab quisquam veritatis obcaecati dicta itaque aperiam!", "#"],
+    "Fresh grinded coffee & hot drinks2" : ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quia maiores sint, ab quisquam veritatis obcaecati dicta itaque aperiam!", "#"],
+    "Fresh grinded coffee & hot drinks3" : ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quia maiores sint, ab quisquam veritatis obcaecati dicta itaque aperiam!", "#"],
+    "Fresh grinded coffee & hot drinks4" : ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quia maiores sint, ab quisquam veritatis obcaecati dicta itaque aperiam!", "#"]
+  },
+  "feature_image" : {
+    "left" : ["#", ""],
+    "first" : ["#", "active"],
+    "second" : ["#", ""],
+    "third" : ["#", ""],
+    "fourth" : ["#", ""],
+    "fifth" : ["#", ""],
+    "right" : ["#", ""]
+  },
+  "main_description_block" : {
+    "welcome" : ["Welcome", "#", "#", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, similique."],
+    "about" : ["About us", "#", "#", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, similique."],
+    "menu" : ["Our menu", "#", "#", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, similique."],
+    "reservation" : ["Reservation", "#", "#", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, similique."]
+  }
+}
