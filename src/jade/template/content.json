@@ -8,6 +8,9 @@
     "Features" : ["#", "features", ""],
     "Contact us" : ["#", "contact", ""]
   },
+
+
+
   "feature" : {
     "Fresh grinded coffee & hot drinks" : ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quia maiores sint, ab quisquam veritatis obcaecati dicta itaque aperiam!", "#"],
     "Fresh grinded coffee & hot drinks1" : ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quia maiores sint, ab quisquam veritatis obcaecati dicta itaque aperiam!", "#"],
@@ -15,6 +18,9 @@
     "Fresh grinded coffee & hot drinks3" : ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quia maiores sint, ab quisquam veritatis obcaecati dicta itaque aperiam!", "#"],
     "Fresh grinded coffee & hot drinks4" : ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quia maiores sint, ab quisquam veritatis obcaecati dicta itaque aperiam!", "#"]
   },
+
+
+
   "feature_image" : {
     "left" : ["#", ""],
     "first" : ["#", "active"],
@@ -24,10 +30,53 @@
     "fifth" : ["#", ""],
     "right" : ["#", ""]
   },
+
+
+
   "main_description_block" : {
     "welcome" : ["Welcome", "#", "#", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, similique."],
     "about" : ["About us", "#", "#", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, similique."],
     "menu" : ["Our menu", "#", "#", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, similique."],
     "reservation" : ["Reservation", "#", "#", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, similique."]
+  },
+
+
+  "dishes_menu" : {
+    "Omelette" : ["$ 2,00", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore saepe sint dolorem sit, repudiandae ex necessitatibus suscipit ducimus iste in.", "omlette", "#"],
+    "Tomato soup" : ["$ 4,50", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, distinctio, minus assumenda facilis modi aut.", "t-soup", "#"],
+    "Crab Claw" : ["$ 12,50", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nam accusantium cupiditate, voluptate molestiae exercitationem quod ea, ut alias in totam aspernatur excepturi culpa libero.", "crab-claw", "#"],
+    "Hunter pastry" : ["$ 10,50", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, eaque ipsa nobis.", "pastry", "#"]
+  },
+
+
+
+  "opening" : {
+    "Monday" : ["12:00 AM - 12:00 PM"],
+    "Tuesday" : ["12:00 AM - 12:00 PM"],
+    "Wednesday" : ["12:00 AM - 12:00 PM"],
+    "Thursday" : ["12:00 AM - 12:00 PM"],
+    "Friday" : ["12:00 AM - 12:00 PM"],
+    "Satyrday" : ["12:00 AM - 12:00 PM"],
+    "Sunday" : ["12:00 AM - 12:00 PM"]
+  },
+
+
+  "awards" : {
+    "first" : ["#", "#"],
+    "second" : ["#", "#"],
+    "third" : ["#", "#"],
+    "fourth" : ["#", "#"],
+    "fifth" : ["#", "#"],
+    "sixth" : ["#", "#"]
+  },
+
+
+  "social" : {
+    "Facebook" : ["https://www.facebook.com/", ""],
+    "Twitter" : ["https://twitter.com/?lang=ru", ""],
+    "Google+" : ["https://plus.google.com", ""],
+    "Instagram" : ["https://www.instagram.com/", ""],
+    "You Tube" : ["https://www.youtube.com/", ""]
   }
+
 }

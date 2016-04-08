@@ -1,0 +1,35 @@
+footer.footer
+  .footer-top
+    .footer-top__left.footer-logo
+      .footer-logo__logo
+        img(src="#", alt="Footer logo").footer-logo__img
+      p.footer-logo__description  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima dicta earum quaerat provident amet hic harum reiciendis, dolor deleniti nam voluptatibus delectus? Corrupti, numquam eveniet nam est accusantium minima aperiam!
+    .footer-top__center-one.footer-posts
+      h3.footer-posts__title Recent Posts
+      .footer-posts__one
+        p $5.4 Million Awarded for Research to Guide Alzheimer's Drug
+          span 01/09/2012
+      .footer-posts__two
+        p $5.4 Million Awarded for Research to Guide Alzheimer's Drug
+          span 01/09/2012
+    .footer-top__center-two.footer-tweets
+      h3.footer-tweets__title Our Tweets
+      .footer-tweets__description.tweets
+        p.tweets__basis Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum similique modi officiis numquam reprehenderit, quo minima assumenda dolorum laborum accusamus.
+          a(href="http://bit.ly/QJz3tP").tweets__link bit.ly/QJz3tP
+          span.tweets__about about 10 days ago
+    .footer-top__right.footer-contact
+      h3.footer-contact__title Contact us
+      p.footer-contact__basis 321 Street Name, UK, London
+        span Phone: (000) 765-4321
+        span Fax: (000) 765-4321
+      a(href="http://mytestonline.xyz").footer-contact__link Website: http://mytestonline.xyz
+      a(href="mailto:sera.procop@gmail.com").footer-contact__link Email: sera.procop@gmail.com
+      .footer-contact__social.footer-social
+        ul.footer-social__list
+          each value, key in social
+            li.footer-social__item
+              a(href="#{value[0]}" target="_blank").footer-socia__link= key
+  .footer-down
+    p.footer-down__copyright Copyright © 2012 Felicita restaurant theme. All right reserved cras vestibulum pulvinar.
+    p.footer-down__privacy  Term of Use  |  Privacy Policy
