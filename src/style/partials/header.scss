@@ -1,0 +1,136 @@
+//---------- Header ----------
+.header-top{
+  @include clearfix();
+  padding: 15/1000*100% 25/1000*100%;
+  &__left{
+    float: left;
+    width: 225/1000*100%;
+  }
+  &__right{
+    float: right;
+    width: 775/1000*100%;
+    text-align: right;
+  }
+}
+
+.header-logo{
+  &__title{
+    display: none;
+  }
+  a{
+    display: block;
+  }
+  img{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+}
+
+.header-nav{
+   padding: 22/775*100% 0 0 0;
+  &__list{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 0;
+  }
+  &__item{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &__link{
+    display: block;
+    font-family: 'bitterregular', serif;
+    text-decoration: none;
+    color: rgba(83, 22, 4, 1);
+    font-size: 0.9375rem;
+    line-height: 2.27;
+    padding: 0 10px;
+    border-radius: 10em;
+    &:hover{
+      color: rgba(83, 22, 4, 0.6);
+      }
+    &--active{
+      background: rgb(83, 22, 4);
+      color: rgba(216, 193, 151, 1);
+      &:hover{
+        color: rgba(216, 193, 151, 1);
+      }
+    }
+  }
+}
+
+
+.header-slider{
+  &__description{
+  background: url("../images/header-image.png") no-repeat;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  box-sizing: border-box;
+  }
+}
+
+.feature{
+  padding: 58/1000*100% 25/1000*100%;
+  &__title{
+    margin: 0;
+  }
+  &__description{
+    font-family: 'open_sansregular', sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.2;
+    color: rgb(216, 193, 151);
+    margin-bottom: 30/950*100%;
+  }
+  &__button{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 35/950*100%;
+    padding: 10/950*100% 35/950*100%;
+    background: rgb(184, 143, 63);
+    border-radius: 10em;
+    text-transform: uppercase;
+    span{
+      padding-left: 10px;
+      font-family: 'open_sanslight', sans-serif;
+    }
+  }
+}
+
+
+//---------- Title Slider ----------
+.slide-title{
+  line-height: 1;
+  &__paragraph-one{
+    margin: 0;
+    font-family: 'bitterregular', serif;
+    color: rgb(184, 143, 63);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+  }
+  &__span-one{
+    font-family: 'bitterbold', serif;
+    color: rgb(255, 255, 255);
+    padding-left: 10/950*100%;
+  }
+  &__paragraph-two{
+    margin: 0;
+    font-family: 'bitterbold', serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+  }
+  &__span-two{
+    font-family: 'bitterregular', serif;
+    color: rgb(184, 143, 63);
+    padding-left: 10/950*100%;
+  }
+}
+
+
+.slide2, .slide3, .slide4, .slide5{
+  display: none;
+}

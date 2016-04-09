@@ -1,21 +1,29 @@
 header.header
-  section.header-menu
-    .header-menu__logo
-      h1.header-menu__title Felicita
-    .header-menu__menu
-      ul.header-menu__list
+  section.header-top
+    .header-top__left.header-logo
+      a(href="/")
+        img(src="images/logo-h.png", alt="Logo-header")
+      h1.header-logo__title Felicita
+    .header-top__right.header-nav
+      ul.header-nav__list
         each value, key in header_menu
-          li.header-menu__item
+          li.header-nav__item
             if(value[2] === "")
-              a(href="#{value[0]}").header-menu__link= key
+              a(href="#{value[0]}").header-nav__link= key
             else
-              a(href="#{value[0]}" class="header-menu__link--#{value[2]}").header-menu__link= key
+              a(href="#{value[0]}" class="header-nav__link--#{value[2]}").header-nav__link= key
   section.header-slider
-    .header-slider__description.feature
-      each value, key in feature
-        h2.feature__title= key
-        .feature__description= value
-        a(href="#{value[1]}") Learn more
+    -var br = "<br>"
+    each value, key in feature
+      .header-slider__description.feature(class="#{key}")
+        h2.feature__title.slide-title
+          p.slide-title__paragraph-one= value[0]
+            span.slide-title__span-one= value[1]
+          p.slide-title__paragraph-two= value[2]
+            span.slide-title__span-two= value[3]
+        .feature__description!= value[4]
+        a.feature__button(href="#{value[5]}") Learn more
+          span >
     .header-slider__switch.feature-switch
       ul.feature-switch__list
         each value, key in feature_image

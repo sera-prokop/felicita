@@ -12,11 +12,11 @@
 
 
   "feature" : {
-    "Fresh grinded coffee & hot drinks" : ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quia maiores sint, ab quisquam veritatis obcaecati dicta itaque aperiam!", "#"],
-    "Fresh grinded coffee & hot drinks1" : ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quia maiores sint, ab quisquam veritatis obcaecati dicta itaque aperiam!", "#"],
-    "Fresh grinded coffee & hot drinks2" : ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quia maiores sint, ab quisquam veritatis obcaecati dicta itaque aperiam!", "#"],
-    "Fresh grinded coffee & hot drinks3" : ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quia maiores sint, ab quisquam veritatis obcaecati dicta itaque aperiam!", "#"],
-    "Fresh grinded coffee & hot drinks4" : ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quia maiores sint, ab quisquam veritatis obcaecati dicta itaque aperiam!", "#"]
+    "slide1" : ["Fresh", "grinded", "coffee & hot", "drinks", "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Cum quia maiores sint, ab quisquam veritatis obcaecati<br> dicta itaque aperiam!</p>", "#"],
+    "slide2" : ["Fresh", "grinded", "coffee & hot", "drinks", "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Cum quia maiores sint, ab quisquam veritatis obcaecati<br> dicta itaque aperiam!</p>", "#"],
+    "slide3" : ["Fresh", "grinded", "coffee & hot", "drinks", "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Cum quia maiores sint, ab quisquam veritatis obcaecati<br> dicta itaque aperiam!</p>", "#"],
+    "slide4" : ["Fresh", "grinded", "coffee & hot", "drinks", "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Cum quia maiores sint, ab quisquam veritatis obcaecati<br> dicta itaque aperiam!</p>", "#"],
+    "slide5" : ["Fresh", "grinded", "coffee & hot", "drinks", "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Cum quia maiores sint, ab quisquam veritatis obcaecati<br> dicta itaque aperiam!</p>", "#"]
   },
 
 
