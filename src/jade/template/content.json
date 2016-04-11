@@ -22,13 +22,13 @@
 
 
   "feature_image" : {
-    "left" : ["#", ""],
-    "first" : ["#", "active"],
-    "second" : ["#", ""],
-    "third" : ["#", ""],
-    "fourth" : ["#", ""],
-    "fifth" : ["#", ""],
-    "right" : ["#", ""]
+    "left" : ["#", "", ""],
+    "first" : ["#", "active", "../images/first-slide.png"],
+    "second" : ["#", "", "../images/second-slide.png"],
+    "third" : ["#", "", "../images/third-slide.png"],
+    "fourth" : ["#", "", "../images/fourth-slide.png"],
+    "fifth" : ["#", "", "../images/fifth-slide.png"],
+    "right" : ["#", "", ""]
   },
 
 

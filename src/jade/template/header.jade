@@ -23,12 +23,14 @@ header.header
             span.slide-title__span-two= value[3]
         .feature__description!= value[4]
         a.feature__button(href="#{value[5]}") Learn more
-          span >
+          span &gt;
     .header-slider__switch.feature-switch
       ul.feature-switch__list
         each value, key in feature_image
           li.feature-switch__item
             if(value[1] === "")
-              a(href="#{value[0]}").feature-switch__link= key
+              a(href="#{value[0]}" class="feature-switch__#{key}").feature-switch__link
+                img(src="#{value[2]}", alt="Картинка")
             else
-              a(href="#{value[0]}" class="feature-switch__link--#{value[1]}").feature-switch__link= key
+              a(href="#{value[0]}" class="feature-switch__link--#{value[1]} feature-switch__#{key}").feature-switch__link
+                img(src="#{value[2]}", alt="Картинка")
