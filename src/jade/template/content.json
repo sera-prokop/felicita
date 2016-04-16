@@ -34,10 +34,10 @@
 
 
   "main_description_block" : {
-    "welcome" : ["Welcome", "#", "#", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, similique."],
-    "about" : ["About us", "#", "#", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, similique."],
-    "menu" : ["Our menu", "#", "#", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, similique."],
-    "reservation" : ["Reservation", "#", "#", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, similique."]
+    "welcome" : ["Welcome", "#", "../images/circle.png", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, similique."],
+    "about" : ["About us", "#", "../images/circle.png", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, similique."],
+    "menu" : ["Our menu", "#", "../images/circle.png", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, similique."],
+    "reservation" : ["Reservation", "#", "../images/circle.png", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, similique."]
   },
 
 

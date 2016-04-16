@@ -2,64 +2,65 @@ main.main
   section.main-description
     each value, key in main_description_block
       .main-description__block(class="#{key}")
-        a(href="#{value[1]}" class="#{key}__img-item")
-          img(src="#{value[2]}", alt="#{value[0]}" class="#{key}__img")
-        h3(class="#{key}__title")= value[0]
-        p(class="#{key}__description")= value[3]
-        a(href="#{value[1]}" class="#{key}__item") Read more
-  section.main-advertising
-    .main-advertising__img-block
-      img(src="#", alt="Robert Craig").main-advertising__img
-    .main-advertising__ad.adt
-      h3.adt__title FRiDAY 15 TH DECEMBER
-      p.adt__description Holiday Winemaker Dinner with Robert Craig
-        span.adt__span Space is limited, please call Alison to reserve your seat at the table: 415.345.3900x13
-  section.popular-menu
-    .popular-menu__left.dishes-menu
-      .dishes-menu__block.dishes-header
-        .dishes-header__title Popular dishes in the menu
-        .dishes-header__switch
-          .dishes-header__switch--left &lt;
-          .dishes-header__switch--right &gt;
-      each value, key in dishes_menu
-        .dishes-menu__block(class="#{value[2]}")
-          div(class="#{value[2]}__img")
-            img(src="#", alt="#{key}")
-          div(class="#{value[2]}__description").dishes
-            h3.dishes__title.dishes-header
-              .dishes-header__name= key
-              .dishes-header__cost= value[0]
-            .dishes__description
-              p= value[1]
-      button.all-menu All menu &gt;
-    .popular-menu__right
-      .opening
-        h3.opening__title Opening hours
-        .opening__hours.day-work
-          ul.day-work__list
-            each value, key in opening
-              li.day-work__item.time
-                span.time__week= key
-                span.time__time= value[0]
-      .review
-        h3.review__title
-        .review__people.customer
-          .customer__description
-          .customer__about.client
-            img(src="#", alt="Foto customer").client__img
-            p.client__name John Doe
-              span.client__position Praesent nec nisl lacus
-  section.awards
-    .awards__title.awards-header
-      h3.awards-header__title Our AWARDS
-      .awards-header__switch
-        .awards-header__switch--left &lt;
-        .awards-header__switch--right &gt;
-      .awards-main
-        ul.awards-main__list
-          each value, key in awards
-            li.awards-main__item
-              a(href="#{value[0]}").awards-main__link
-                img(src="#{value[1]}", alt="#{key}")
+        a(href="#{value[1]}" class="#{key}__img-item").main-description__link
+          img(src="#{value[2]}", alt="#{value[0]}" class="#{key}__img").main-description__img
+        h3(class="#{key}__title").main-description__title= value[0]
+        p(class="#{key}__description").main-description__description= value[3]
+        a(href="#{value[1]}" class="#{key}__item").main-description__button Read more
+  section.main-wrapper
+    section.main-advertising
+      .main-advertising__img
+        img(src="../images/robert.png", alt="Robert Craig").main-advertising__img-block
+      .main-advertising__ad.adt
+        h3.adt__title FRIDAY <span>15 TH</span> DECEMBER
+        p.adt__description Holiday Winemaker Dinner with Robert Craig
+        p.adt__paragraph Space is limited, please call Alison to reserve your seat at the table: 415.345.3900x13
+    section.popular-menu
+      .popular-menu__left.dishes-menu
+        .dishes-menu__block.dishes-header
+          h3.dishes-header__title Popular dishes in the menu
+          .dishes-header__switch
+            .dishes-header__switch--left &lt;
+            .dishes-header__switch--right &gt;
+        each value, key in dishes_menu
+          .dishes-menu__block(class="#{value[2]}")
+            div(class="#{value[2]}__img")
+              img(src="#", alt="#{key}")
+            div(class="#{value[2]}__description").dishes
+              h3.dishes__title.dishes-header
+                .dishes-header__name= key
+                .dishes-header__cost= value[0]
+              .dishes__description
+                p= value[1]
+        button.all-menu All menu &gt;
+      .popular-menu__right
+        .opening
+          h3.opening__title Opening hours
+          .opening__hours.day-work
+            ul.day-work__list
+              each value, key in opening
+                li.day-work__item.time
+                  span.time__week= key
+                  span.time__time= value[0]
+        .review
+          h3.review__title
+          .review__people.customer
+            .customer__description
+            .customer__about.client
+              img(src="#", alt="Foto customer").client__img
+              p.client__name John Doe
+                span.client__position Praesent nec nisl lacus
+    section.awards
+      .awards__title.awards-header
+        h3.awards-header__title Our AWARDS
+        .awards-header__switch
+          .awards-header__switch--left &lt;
+          .awards-header__switch--right &gt;
+        .awards-main
+          ul.awards-main__list
+            each value, key in awards
+              li.awards-main__item
+                a(href="#{value[0]}").awards-main__link
+                  img(src="#{value[1]}", alt="#{key}")
 
 

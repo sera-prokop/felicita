@@ -1,0 +1,191 @@
+.main-description{
+  @include clearfix();
+  background: rgba(71, 91, 102, 1);
+  padding: 70/1000*100% 25/1000*100% 15/1000*100%;
+  &__block{
+    float: left;
+    width: 23%;
+    box-sizing: border-box;
+    margin-right: 10/1000*100%;
+    margin-left: 10/1000*100%;
+  }
+  &__link{
+    display: block;
+    position: relative;
+    &:hover:before{
+      content: "";
+      background-image: url(../images/circle-h.png);
+      background-size: cover;
+      width: 115/224*100%;
+      height: 113/224*100%;
+      @include vertical();
+    }
+  }
+  &__img{
+    width: 100%;
+    height: auto;
+  }
+  &__title{
+    font-family: 'bitterregular', serif;
+    color: rgb(83, 22, 4);
+    font-size: 1.3125rem;
+    text-align: center;
+  }
+  &__description{
+    font-family: 'open_sansregular', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.7;
+    color: rgb(231, 241, 238);
+    text-align: justify;
+    margin-bottom: 0;
+  }
+  &__button{
+    font-family: 'open_sansregular', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.7;
+    color: rgb(184, 143, 63);
+    position: relative;
+    text-decoration: none;
+    &:before{
+      content: "";
+      position: absolute;
+      top: 0.6rem;
+      left: 5.2rem;
+      @include sprite($arrow);
+    }
+  }
+}
+
+.main-wrapper{
+  background:  url("../images/bg-main.png");
+  position: relative;
+  padding-top: 40/1000*100%;
+  &:before{
+    content: "";
+    display: block;
+    background: url("../images/descr.png");
+    background-size: cover;
+    width: 100%;
+    height: 2.3%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+.main-advertising{
+  @include clearfix();
+  background: #b88f3f url("../images/1.png");
+  margin: 0 25/1000*100% 55/1000*100%;
+  &__img{
+    float: left;
+    width: 220/940*100%;
+  }
+  &__ad{
+    float: right;
+    width: 720/940*100%;
+  }
+  &__img-block{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+}
+
+.adt{
+  box-sizing: border-box;
+  padding: 20/720*100% 50/720*100% 20/720*100% 30/720*100% ;
+  &__title{
+    font-size: 2.5rem;
+    font-family: 'bitterregular', serif;
+    color: rgb(83, 22, 4);
+    line-height: 1.1;
+    margin: 0;
+    span{
+      color: rgb(255, 255, 255);
+      font-family: 'bitterbold', serif;
+    }
+  }
+  &__description{
+    font-family: 'open_sansregular', sans-serif;
+    font-size: 1.6875rem;
+    line-height: 1;
+    margin-top: 5/720*100%;
+    color: rgb(83, 22, 4);
+    padding-left: 75/720*100%;
+    margin-bottom: 15/720*100%;
+  }
+  &__paragraph{
+    font-family: 'open_sansregular', sans-serif;
+    font-size: 1rem;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    margin: 0;
+  }
+}
+
+.popular-menu{
+  padding: 0 25/1000*100%;
+  @include clearfix();
+  &__left{
+    float: left;
+    width: 650/1000*100%;
+  }
+  &__right{
+    float: right;
+    width: 330/1000*100%;
+
+  }
+}
+
+.dishes-header{
+  @include clearfix();
+  &__title{
+    float: left;
+    width: 540/650*100%;
+    margin: 0;
+    font-family: 'bitterregular', serif;
+    font-size: 1.625rem;
+    color: rgb(60, 4, 3);
+  }
+  &__switch{
+    float: right;
+    width: 110/650*100%;
+    font-size: 0;
+    font-family: 'bitterregular', serif;
+    line-height: 30px;
+    padding-right: 10/540*100%;
+    box-sizing: border-box;
+    text-align: right;
+    &--left{
+      display: inline-block;
+      vertical-align: middle;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      background: rgba(184, 143, 63, 1);
+      border-radius: 50%;
+      color: rgba(255, 255, 255, 0.5);
+      cursor: pointer;
+      font-size: 0.8rem;
+      &:hover{
+        opacity: 0.7;
+      }
+    }
+    &--right{
+      display: inline-block;
+      vertical-align: middle;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      background: rgba(184, 143, 63, 1);
+      border-radius: 50%;
+      color: rgba(255, 255, 255, 0.5);
+      cursor: pointer;
+      margin-left: 5%;
+      font-size: 0.8rem;
+      &:hover{
+        opacity: 0.7;
+      }
+    }
+  }
+}
