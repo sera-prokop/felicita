@@ -22,20 +22,21 @@ main.main
           .dishes-header__switch
             .dishes-header__switch--left &lt;
             .dishes-header__switch--right &gt;
+        .dishes-header__wave
         each value, key in dishes_menu
-          .dishes-menu__block(class="#{value[2]}")
-            div(class="#{value[2]}__img")
-              img(src="#", alt="#{key}")
-            div(class="#{value[2]}__description").dishes
-              h3.dishes__title.dishes-header
-                .dishes-header__name= key
-                .dishes-header__cost= value[0]
-              .dishes__description
-                p= value[1]
+          .dishes-menu__block.dishes-wrapper(class="#{value[2]}")
+            div.dishes-wrapper__left(class="#{value[2]}__img")
+              img(src="#{value[3]}", alt="#{key}")
+            div.dishes.dishes-wrapper__right(class="#{value[2]}__description")
+              .dishes__dotted-wr
+                h3.dishes__title= key
+                .dishes__cost= value[0]
+              p.dishes__description= value[1]
         button.all-menu All menu &gt;
       .popular-menu__right
         .opening
           h3.opening__title Opening hours
+          .opening__wave
           .opening__hours.day-work
             ul.day-work__list
               each value, key in opening
@@ -43,24 +44,26 @@ main.main
                   span.time__week= key
                   span.time__time= value[0]
         .review
-          h3.review__title
+          h3.review__title Customer Review
+          .review__wave
           .review__people.customer
-            .customer__description
+            .customer__description The feugiat vitae is a traditional dish of Lorem Ipsum people which usually prepares for breakfast. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
             .customer__about.client
-              img(src="#", alt="Foto customer").client__img
+              img(src="../images/foto-client.png", alt="Foto customer").client__img
               p.client__name John Doe
-                span.client__position Praesent nec nisl lacus
+                span.client__position  Praesent nec nisl lacus
     section.awards
       .awards__title.awards-header
         h3.awards-header__title Our AWARDS
         .awards-header__switch
           .awards-header__switch--left &lt;
           .awards-header__switch--right &gt;
-        .awards-main
-          ul.awards-main__list
-            each value, key in awards
-              li.awards-main__item
-                a(href="#{value[0]}").awards-main__link
-                  img(src="#{value[1]}", alt="#{key}")
+      .awards-header__wave
+      .awards-main
+        ul.awards-main__list
+          each value, key in awards
+            li.awards-main__item
+              a(href="#{value[0]}").awards-main__link
+                img(src="#{value[1]}", alt="#{key}")
 
 

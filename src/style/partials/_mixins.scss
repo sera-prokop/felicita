@@ -10,15 +10,16 @@
 }
 
 @mixin triangle() {
-  &:before{
+  &:after{
     content: "";
     width: 0;
     height: 0;
-    border-bottom: 15px solid #fff;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
+    border-top: 15px solid #fff;
+    border-left: 15px solid transparent;
+    border-right: 0px solid transparent;
     position: absolute;
-    top: -15px;
+    bottom: -40/330*100%;
+    left:160/330*100%;
   }
 }
 

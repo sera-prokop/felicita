@@ -42,10 +42,10 @@
 
 
   "dishes_menu" : {
-    "Omelette" : ["$ 2,00", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore saepe sint dolorem sit, repudiandae ex necessitatibus suscipit ducimus iste in.", "omlette", "#"],
-    "Tomato soup" : ["$ 4,50", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, distinctio, minus assumenda facilis modi aut.", "t-soup", "#"],
-    "Crab Claw" : ["$ 12,50", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nam accusantium cupiditate, voluptate molestiae exercitationem quod ea, ut alias in totam aspernatur excepturi culpa libero.", "crab-claw", "#"],
-    "Hunter pastry" : ["$ 10,50", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, eaque ipsa nobis.", "pastry", "#"]
+    "Omelette" : ["$ 2,00", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore saepe sint dolorem sit, repudiandae ex necessitatibus suscipit ducimus iste in.", "omlette", "../images/omlette.png"],
+    "Tomato soup" : ["$ 4,50", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, distinctio, minus assumenda facilis modi aut.", "t-soup", "../images/tomatos.png"],
+    "Crab Claw" : ["$ 12,50", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nam accusantium cupiditate, voluptate molestiae exercitationem quod ea, ut alias in totam aspernatur excepturi culpa libero.", "crab-claw", "../images/crab.png"],
+    "Hunter pastry" : ["$ 10,50", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, eaque ipsa nobis.", "pastry", "../images/pasta.png"]
   },
 
 
@@ -62,12 +62,12 @@
 
 
   "awards" : {
-    "first" : ["#", "#"],
-    "second" : ["#", "#"],
-    "third" : ["#", "#"],
-    "fourth" : ["#", "#"],
-    "fifth" : ["#", "#"],
-    "sixth" : ["#", "#"]
+    "first" : ["#", "../images/awards1.png"],
+    "second" : ["#", "../images/awards2.png"],
+    "third" : ["#", "../images/awards3.png"],
+    "fourth" : ["#", "../images/awards1.png"],
+    "fifth" : ["#", "../images/awards2.png"],
+    "sixth" : ["#", "../images/awards3.png"]
   },
 
 
