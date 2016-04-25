@@ -2,7 +2,7 @@ footer.footer
   .footer-top
     .footer-top__left.footer-logo
       .footer-logo__logo
-        img(src="#", alt="Footer logo").footer-logo__img
+        img(src="../images/logo-f.png", alt="Footer logo").footer-logo__img
       p.footer-logo__description  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima dicta earum quaerat provident amet hic harum reiciendis, dolor deleniti nam voluptatibus delectus? Corrupti, numquam eveniet nam est accusantium minima aperiam!
     .footer-top__center-one.footer-posts
       h3.footer-posts__title Recent Posts
@@ -19,17 +19,18 @@ footer.footer
           a(href="http://bit.ly/QJz3tP").tweets__link bit.ly/QJz3tP
           span.tweets__about about 10 days ago
     .footer-top__right.footer-contact
-      h3.footer-contact__title Contact us
-      p.footer-contact__basis 321 Street Name, UK, London
-        span Phone: (000) 765-4321
-        span Fax: (000) 765-4321
-      a(href="http://mytestonline.xyz").footer-contact__link Website: http://mytestonline.xyz
-      a(href="mailto:sera.procop@gmail.com").footer-contact__link Email: sera.procop@gmail.com
+      .footer-contact
+        h3.footer-contact__title Contact us
+        p.footer-contact__basis 321 Street Name, UK, London
+          span Phone: (000) 765-4321
+          span Fax: (000) 765-4321
+        a(href="http://mytestonline.xyz").footer-contact__link Website: http://mytestonline.xyz
+        a(href="mailto:sera.procop@gmail.com").footer-contact__link Email: sera.procop@gmail.com
       .footer-contact__social.footer-social
         ul.footer-social__list
           each value, key in social
             li.footer-social__item
-              a(href="#{value[0]}" target="_blank").footer-socia__link= key
+              a.footer-social__link(href="#{value[0]}" target="_blank" class="footer-social__link--#{value[1]}")= key
   .footer-down
     p.footer-down__copyright Copyright © 2012 Felicita restaurant theme. All right reserved cras vestibulum pulvinar.
     p.footer-down__privacy  Term of Use  |  Privacy Policy

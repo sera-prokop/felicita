@@ -72,11 +72,11 @@
 
 
   "social" : {
-    "Facebook" : ["https://www.facebook.com/", ""],
-    "Twitter" : ["https://twitter.com/?lang=ru", ""],
-    "Google+" : ["https://plus.google.com", ""],
-    "Instagram" : ["https://www.instagram.com/", ""],
-    "You Tube" : ["https://www.youtube.com/", ""]
+    "Facebook" : ["https://www.facebook.com/", "facebook"],
+    "Twitter" : ["https://twitter.com/?lang=ru", "twitter"],
+    "Google+" : ["https://plus.google.com", "google"],
+    "Instagram" : ["https://www.instagram.com/", "instagram"],
+    "You Tube" : ["https://www.youtube.com/", "youtube"]
   }
 
 }

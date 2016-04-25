@@ -447,6 +447,8 @@
 
 .awards-main{
   text-align: justify;
+  margin-bottom: -20/1000*100%;
+  padding-bottom: 45/1000*100%;
   &:after{
     content: "";
     display: inline-block;

@@ -2,6 +2,7 @@
 .header-top{
   @include clearfix();
   padding: 15/1000*100% 25/1000*100%;
+  background: rgba(255, 255, 255, 1);
   &__left{
     float: left;
     width: 225/1000*100%;
